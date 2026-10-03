@@ -73,8 +73,8 @@
     e.preventDefault();
     const name = document.getElementById('name').value.trim();
     note.textContent = name
-      ? `Thank you, ${name} — your request has been received. I'll reply within 24 hours.`
-      : 'Your request has been received. I\'ll reply within 24 hours.';
+      ? `Terima kasih, ${name} — permintaanmu sudah diterima. Saya akan membalas dalam 24 jam.`
+      : 'Permintaanmu sudah diterima. Saya akan membalas dalam 24 jam.';
     form.reset();
   });
 
