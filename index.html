@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MUSE STUDIO — Professional Makeup Artist</title>
+  <meta name="description" content="Luxury makeup artistry for brides, editorials and unforgettable moments. Reveal your inner radiance with Muse Studio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a href="#" class="logo">MUSE<span>STUDIO</span></a>
+      <nav class="main-nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#booking" class="btn btn-outline btn-sm">Book Now</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="label reveal">Professional Makeup Artist</p>
+      <h1 class="reveal">Reveal Your<br /><em>Inner Radiance</em></h1>
+      <p class="hero-sub reveal">Luxury makeup artistry for brides, editorials and unforgettable moments — tailored to your features, your style, your day.</p>
+      <div class="hero-cta reveal">
+        <a href="#booking" class="btn btn-gold">Book Your Session</a>
+        <a href="#portfolio" class="btn btn-ghost">View Portfolio</a>
+      </div>
+    </div>
+    <div class="scroll-hint"><span></span></div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section class="section about" id="about">
+    <div class="container about-grid">
+      <div class="about-photo reveal">
+        <img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=900&auto=format&fit=crop" alt="Makeup artist at work" loading="lazy" />
+        <div class="about-frame"></div>
+      </div>
+      <div class="about-text">
+        <p class="label reveal">About Me</p>
+        <h2 class="reveal">The pursuit of<br />effortless perfection.</h2>
+        <p class="reveal">I'm Muse — a professional makeup artist with over a decade of experience behind the brush. My philosophy is simple: makeup should never mask you. It should reveal you — polished, radiant, unmistakably yourself.</p>
+        <p class="reveal">From intimate bridal mornings to high-fashion editorials, every face is treated as a canvas and every detail as a signature.</p>
+        <div class="stats reveal">
+          <div class="stat"><strong>12+</strong><span>Years Experience</span></div>
+          <div class="stat"><strong>800+</strong><span>Happy Clients</span></div>
+          <div class="stat"><strong>50+</strong><span>Beauty Awards</span></div>
+          <div class="stat"><strong>15</strong><span>Masterclasses</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PORTFOLIO ============ -->
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <p class="label reveal">Portfolio</p>
+      <div class="section-head reveal">
+        <h2>A curated portfolio of<br />transformations &amp; artistry.</h2>
+        <div class="filters" id="filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="bridal">Bridal</button>
+          <button class="filter-btn" data-filter="editorial">Editorial</button>
+          <button class="filter-btn" data-filter="glamour">Glamour</button>
+        </div>
+      </div>
+      <div class="portfolio-grid reveal" id="portfolioGrid">
+        <figure class="p-item tall" data-cat="bridal">
+          <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=800&auto=format&fit=crop" alt="Bridal makeup look" loading="lazy" />
+          <figcaption>Bridal Radiance</figcaption>
+        </figure>
+        <figure class="p-item" data-cat="editorial">
+          <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=600&auto=format&fit=crop" alt="Editorial makeup look" loading="lazy" />
+          <figcaption>Editorial Edge</figcaption>
+        </figure>
+        <figure class="p-item" data-cat="glamour">
+          <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?q=80&w=600&auto=format&fit=crop" alt="Glamour makeup look" loading="lazy" />
+          <figcaption>Golden Hour Glam</figcaption>
+        </figure>
+        <figure class="p-item" data-cat="bridal">
+          <img src="https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?q=80&w=600&auto=format&fit=crop" alt="Bridal makeup look" loading="lazy" />
+          <figcaption>Timeless Bride</figcaption>
+        </figure>
+        <figure class="p-item" data-cat="editorial">
+          <img src="https://images.unsplash.com/photo-1492106087820-71f1a00d2b11?q=80&w=600&auto=format&fit=crop" alt="Editorial makeup look" loading="lazy" />
+          <figcaption>Avant Garde</figcaption>
+        </figure>
+        <figure class="p-item wide" data-cat="glamour">
+          <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=1200&auto=format&fit=crop" alt="Makeup artistry details" loading="lazy" />
+          <figcaption>The Artistry</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section class="section services" id="services">
+    <div class="container">
+      <p class="label reveal">Our Services</p>
+      <h2 class="reveal">Services tailored to<br />your moment.</h2>
+      <div class="service-list">
+        <div class="service-row reveal">
+          <div class="service-info">
+            <h3>Bridal Makeup Package</h3>
+            <p>Full luxury bridal look including trial session, premium lashes and a touch-up kit for the day.</p>
+          </div>
+          <div class="service-book">
+            <span class="price">$250</span>
+            <a href="#booking" class="book-link">Book &rarr;</a>
+          </div>
+        </div>
+        <div class="service-row reveal">
+          <div class="service-info">
+            <h3>Engagement &amp; Party Makeup</h3>
+            <p>Soft glam that photographs beautifully — perfect for engagements, galas and special evenings.</p>
+          </div>
+          <div class="service-book">
+            <span class="price">$120</span>
+            <a href="#booking" class="book-link">Book &rarr;</a>
+          </div>
+        </div>
+        <div class="service-row reveal">
+          <div class="service-info">
+            <h3>Photoshoot &amp; Editorial</h3>
+            <p>Camera-ready artistry for photoshoots, runway and creative editorial concepts.</p>
+          </div>
+          <div class="service-book">
+            <span class="price">$180</span>
+            <a href="#booking" class="book-link">Book &rarr;</a>
+          </div>
+        </div>
+        <div class="service-row reveal">
+          <div class="service-info">
+            <h3>Makeup Masterclass</h3>
+            <p>A private 1-on-1 session to master your everyday look with professional techniques.</p>
+          </div>
+          <div class="service-book">
+            <span class="price">$95</span>
+            <a href="#booking" class="book-link">Book &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section testimonials">
+    <div class="container narrow">
+      <p class="label reveal">Testimonials</p>
+      <div class="quote-mark reveal">&ldquo;</div>
+      <blockquote class="reveal">She didn't just do my makeup — she understood my face. I walked into my wedding day feeling like the best version of myself: radiant, untouched, perfect.</blockquote>
+      <div class="client reveal">
+        <img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&w=160&auto=format&fit=crop" alt="Client portrait" loading="lazy" />
+        <div>
+          <strong>Sarah Mitchell</strong>
+          <span>Bride, June 2026</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="section faq" id="faq">
+    <div class="container narrow">
+      <p class="label reveal">FAQ</p>
+      <h2 class="reveal">Questions, answered<br />with clarity.</h2>
+      <div class="accordion reveal" id="accordion">
+        <div class="acc-item">
+          <button class="acc-head">Do you travel for bookings?<span class="acc-icon">+</span></button>
+          <div class="acc-body"><p>Yes — I travel for weddings and shoots. Travel fees apply outside the city area and are quoted upfront, so there are never surprises.</p></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head">Do I need a trial before my wedding?<span class="acc-icon">+</span></button>
+          <div class="acc-body"><p>A trial is highly recommended and included in the bridal package. It's where we perfect your look together, so the big day is stress-free.</p></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head">What brands do you use?<span class="acc-icon">+</span></button>
+          <div class="acc-body"><p>Only premium, skin-safe products — from Charlotte Tilbury and Dior to professional Kryolan palettes — matched to your skin type and tone.</p></div>
+        </div>
+        <div class="acc-item">
+          <button class="acc-head">How do I secure my date?<span class="acc-icon">+</span></button>
+          <div class="acc-body"><p>A 30% deposit locks your date. Dates are reserved on a first-come basis, especially during wedding season — early booking is advised.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BOOKING ============ -->
+  <section class="section booking" id="booking">
+    <div class="container booking-grid">
+      <div class="booking-info">
+        <p class="label reveal">Booking</p>
+        <h2 class="reveal">Reserve your date<br />before it's gone.</h2>
+        <p class="reveal">Tell me about your moment — I'll reply within 24 hours with availability and a tailored quote.</p>
+        <ul class="contact-list reveal">
+          <li><span>Email</span>hello@musestudio.com</li>
+          <li><span>Phone</span>+1 (555) 012-3456</li>
+          <li><span>Studio</span>21 Atelier Lane, New York</li>
+        </ul>
+      </div>
+      <form class="booking-form reveal" id="bookingForm">
+        <div class="field-row">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="+1 ..." required />
+          </div>
+        </div>
+        <div class="field-row">
+          <div class="field">
+            <label for="date">Preferred date</label>
+            <input type="date" id="date" name="date" required />
+          </div>
+          <div class="field">
+            <label for="service">Service</label>
+            <select id="service" name="service" required>
+              <option value="">Select a service</option>
+              <option>Bridal Makeup Package</option>
+              <option>Engagement &amp; Party Makeup</option>
+              <option>Photoshoot &amp; Editorial</option>
+              <option>Makeup Masterclass</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="notes">Tell me about your moment</label>
+          <textarea id="notes" name="notes" rows="4" placeholder="Wedding theme, venue, inspiration..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-gold btn-block">Request Booking</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#" class="logo">MUSE<span>STUDIO</span></a>
+        <p>Luxury makeup artistry — revealing your inner radiance since 2014.</p>
+      </div>
+      <div class="footer-links">
+        <strong>Explore</strong>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Services</a>
+        <a href="#booking">Booking</a>
+      </div>
+      <div class="footer-links">
+        <strong>Follow</strong>
+        <a href="#" rel="noopener">Instagram</a>
+        <a href="#" rel="noopener">TikTok</a>
+        <a href="#" rel="noopener">Pinterest</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 Muse Studio. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
